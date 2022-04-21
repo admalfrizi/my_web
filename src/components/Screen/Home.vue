@@ -428,7 +428,7 @@ const skills = [
     percent: 90,
   },
   {
-    name: "IT Enggineering",
+    name: "IT Engineering",
     percent: 80,
   },
   {
