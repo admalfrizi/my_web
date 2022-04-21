@@ -22,7 +22,10 @@
               <img src="../../assets/image/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Website</h2>
             </a>
-            <a href="https://github.com/admalfrizi/uas_pbw_adamalfarizi" class="link">
+            <a
+              href="https://github.com/admalfrizi/uas_pbw_adamalfarizi"
+              class="link"
+            >
               <img src="../../assets/image/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Github</h2>
             </a>
@@ -120,12 +123,11 @@
 
 <script>
 export default {
-    name: 'Portofolio'
-}
+  name: "Portofolio",
+};
 </script>
 
 <style scoped>
-
 .MyPorto {
   background-color: #406ca8;
   padding-top: 172px;
@@ -188,5 +190,4 @@ export default {
     margin-top: 10px;
   }
 }
-
 </style>
