@@ -14,19 +14,19 @@
           data-aos-duration="3000"
         >
           <div class="Img">
-            <img src="../../../public/porto_1.jpg" alt="" />
+            <img src="../../assets/image/porto_1.jpg" alt="" />
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">aaistore web</h3>
             <a href="http://aai-store.great-site.net/?i=1" class="link">
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Website</h2>
             </a>
             <a
               href="https://github.com/admalfrizi/uas_pbw_adamalfarizi"
               class="link"
             >
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Github</h2>
             </a>
           </div>
@@ -38,12 +38,12 @@
           data-aos-duration="3000"
         >
           <div class="Img">
-            <img src="../../../public/web_2.jpg" alt="porto" />
+            <img src="../../assets/image/web_2.jpg" alt="porto" />
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">KuproyKoding</h3>
             <a href="" class="link">
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Github</h2>
             </a>
           </div>
@@ -55,12 +55,12 @@
           data-aos-duration="3000"
         >
           <div class="Img">
-            <img src="../../../public/porto_2.jpg" alt="porto" />
+            <img src="../../assets/image/porto_2.jpg" alt="porto" />
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">Siadin apps design</h3>
             <a href="" class="link">
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Dribbble</h2>
             </a>
           </div>
@@ -72,12 +72,12 @@
           data-aos-duration="3000"
         >
           <div class="Img">
-            <img src="../../../public/porto_3.jpg" alt="porto" />
+            <img src="../../assets/image/porto_3.jpg" alt="porto" />
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">Retailio apps design</h3>
             <a href="" class="link">
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Dribbble</h2>
             </a>
           </div>
@@ -89,12 +89,12 @@
           data-aos-duration="3000"
         >
           <div class="Img">
-            <img src="../../../public/porto_4.jpg" alt="porto" />
+            <img src="../../assets/image/porto_4.jpg" alt="porto" />
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">Rentalio apps design</h3>
             <a href="" class="link">
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Dribbble</h2>
             </a>
           </div>
@@ -106,12 +106,12 @@
           data-aos-duration="3000"
         >
           <div class="Img">
-            <img src="../../../public/porto_5.jpg" alt="porto" />
+            <img src="../../assets/image/porto_5.jpg" alt="porto" />
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">Traveline apps design</h3>
             <a href="" class="link">
-              <img src="../../assets/image/browser_icon.svg" alt="" />
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Dribbble</h2>
             </a>
           </div>
@@ -175,7 +175,7 @@ export default {
   color: antiquewhite;
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 600px) {
   .MyPorto section {
     text-align: center;
   }

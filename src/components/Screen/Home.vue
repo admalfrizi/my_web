@@ -61,7 +61,7 @@
               >
                 <img
                   class="mr-5"
-                  src="../../assets/image/download_ic.svg"
+                  src="../../assets/icons/download_ic.svg"
                   alt=""
                 />
                 Download My CV
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="Img-container" data-aos="zoom-in" data-aos-duration="3000">
-          <img src="./../../../public/img_cover.png" alt="gambar" />
+          <img src="../../assets/image/img_cover.png" alt="gambar" />
         </div>
       </main>
     </div>
@@ -81,7 +81,7 @@
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <img src="./../../../public/wai_img.png" alt="gambar" />
+          <img src="../../assets/image/wai_img.png" alt="gambar" />
         </div>
         <div
           class="sm:text-center lg:text-left Isi"
@@ -165,19 +165,19 @@
             data-aos-duration="3000"
           >
             <div class="Img">
-              <img src="../../../public/porto_1.jpg" alt="" />
+              <img src="../../assets/image/porto_1.jpg" alt="" />
             </div>
             <div class="link-div text-left">
               <h3 class="text-white font-medium">aaistore web</h3>
               <a href="http://aai-store.great-site.net/?i=1" class="link">
-                <img src="../../assets/image/browser_icon.svg" alt="" />
+                <img src="../../assets/icons/browser_icon.svg" alt="" />
                 <h2 class="text-white font-regular">Link Website</h2>
               </a>
               <a
                 href="https://github.com/admalfrizi/uas_pbw_adamalfarizi"
                 class="link"
               >
-                <img src="../../assets/image/browser_icon.svg" alt="" />
+                <img src="../../assets/icons/browser_icon.svg" alt="" />
                 <h2 class="text-white font-regular">Link Github</h2>
               </a>
             </div>
@@ -189,12 +189,12 @@
             data-aos-duration="3000"
           >
             <div class="Img">
-              <img src="../../../public/web_2.jpg" alt="" />
+              <img src="../../assets/image/web_2.jpg" alt="" />
             </div>
             <div class="link-div text-left">
               <h3 class="text-white font-medium">KuproyKoding</h3>
               <a href="" class="link">
-                <img src="../../assets/image/browser_icon.svg" alt="" />
+                <img src="../../assets/icons/browser_icon.svg" alt="" />
                 <h2 class="text-white font-regular">Link Github</h2>
               </a>
             </div>
@@ -206,12 +206,12 @@
             data-aos-duration="3000"
           >
             <div class="Img">
-              <img src="../../../public/porto_2.jpg" alt="" />
+              <img src="../../assets/image/porto_2.jpg" alt="" />
             </div>
             <div class="link-div text-left">
               <h3 class="text-white font-medium">Siadin apps design</h3>
               <a href="" class="link">
-                <img src="../../assets/image/browser_icon.svg" alt="" />
+                <img src="../../assets/icons/browser_icon.svg" alt="" />
                 <h2 class="text-white font-regular">Link Dribbble</h2>
               </a>
             </div>
@@ -223,12 +223,12 @@
             data-aos-duration="3000"
           >
             <div class="Img">
-              <img src="../../../public/porto_3.jpg" alt="" />
+              <img src="../../assets/image/porto_3.jpg" alt="" />
             </div>
             <div class="link-div text-left">
               <h3 class="text-white font-medium">Retailio apps design</h3>
               <a href="" class="link">
-                <img src="../../assets/image/browser_icon.svg" alt="" />
+                <img src="../../assets/icons/browser_icon.svg" alt="" />
                 <h2 class="text-white font-regular">Link Dribbble</h2>
               </a>
             </div>
@@ -280,14 +280,11 @@
             data-aos="zoom-in"
             data-aos-duration="3000"
           >
-            <div>
+            <div
+              class="Skillsname px-6"
+              v-bind:style="{ background: skill.color }"
+            >
               <h3 class="lang font-regular text-white">{{ skill.name }}</h3>
-            </div>
-            <div class="bar">
-              <div
-                class="progress"
-                v-bind:style="{ width: skill.percent + '%' }"
-              ></div>
             </div>
           </div>
         </div>
@@ -303,7 +300,7 @@
             data-aos-duration="2000"
           >
             <div class="tools_ic">
-              <img src="../../assets/image/figma_ic.svg" alt="tools" />
+              <img src="../../assets/icons/figma_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">Figma</h3>
           </div>
@@ -313,7 +310,7 @@
             data-aos-duration="2000"
           >
             <div class="tools_ic">
-              <img src="../../assets/image/vscode_ic.svg" alt="tools" />
+              <img src="../../assets/icons/vscode_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">Vscode</h3>
           </div>
@@ -323,7 +320,7 @@
             data-aos-duration="2000"
           >
             <div class="tools_ic">
-              <img src="@/assets/image/React.svg" alt="tools" />
+              <img src="@/assets/icons/React.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">
               React Js
@@ -335,7 +332,7 @@
             data-aos-duration="2000"
           >
             <div class="tools_ic">
-              <img src="@/assets/image/android_studio_ic.svg" alt="tools" />
+              <img src="@/assets/icons/android_studio_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">
               Android Studio
@@ -347,7 +344,7 @@
             data-aos-duration="2000"
           >
             <div class="tools_ic">
-              <img src="@/assets/image/flutter_ic.svg" alt="tools" />
+              <img src="@/assets/icons/flutter_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">Flutter</h3>
           </div>
@@ -361,7 +358,7 @@
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <img src="@/assets/image/bussiness_inquires.svg" alt="gambar" />
+          <img src="@/assets/icons/bussiness_inquires.svg" alt="gambar" />
         </div>
         <div
           class="sm:text-center lg:text-left Isi"
@@ -425,31 +422,31 @@ import axios from "axios";
 const skills = [
   {
     name: "UI UX Design",
-    percent: 90,
+    color: `linear-gradient(180deg, #1FA0C9, #534ABC)`,
   },
   {
     name: "IT Engineering",
-    percent: 80,
+    color: `linear-gradient(180deg, #E13131, #D68D20)`,
   },
   {
     name: "Android Flutter Dev",
-    percent: 65,
+    color: `#2379DE`,
   },
   {
     name: "Android Kotlin Dev",
-    percent: 70,
+    color: `linear-gradient(180deg, #873DD1, #5C1E9A)`,
   },
   {
     name: "PHP / MySql",
-    percent: 87,
+    color: `linear-gradient(90deg, #2968E2, #D06416)`,
   },
   {
     name: "Web Programming",
-    percent: 80,
+    color: `#3BA121`,
   },
   {
     name: "Graphics Design",
-    percent: 83,
+    color: `#2041B4`,
   },
 ];
 
@@ -625,12 +622,21 @@ export default {
   justify-content: space-around;
 }
 
+.Skillsname {
+  background: #3b8ded;
+  border-radius: 18px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
 .MySkills .Layout .Title {
   margin: auto;
 }
 
 .Skills-Isi {
-  margin-right: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 90px;
   margin-bottom: 30px;
 }
 
@@ -638,20 +644,6 @@ export default {
   font-size: 20px;
   text-align: left;
   margin-bottom: 22px;
-}
-
-.Skills-Isi .bar {
-  width: 295px;
-  height: 22px;
-  background: #51a2a7;
-  overflow: hidden;
-  border-radius: 3px;
-}
-
-.Skills-Isi .bar .progress {
-  padding: 15px;
-  background-color: #35ddb5;
-  border-radius: 3px;
 }
 
 .MySkills .Tool {
@@ -690,7 +682,7 @@ export default {
   background-color: #2e64a1;
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 600px) {
   .Container {
     padding-top: 90px;
     width: 100%;

@@ -36,50 +36,60 @@
                 </div>
               </div>
               <div
-                class="hidden md:block md:flex flex-row xl:flex flex-row
+                class="
+                  hidden
+                  md:block md:flex
+                  flex-row
+                  xl:flex
+                  flex-row
                   Menu
                   items-right
-                  flex
-                  flex-row
+                  flex flex-row
                 "
               >
-                <router-link to="/home"
-                    active-class="activelink"
-                    class="
-                      block
-                      px-5
-                      py-2
-                      rounded-md
-                      font-bold
-                      text-white
-                      hover:text-yellow-400
-                    "
-                    >Home</router-link>
-                  <router-link to="/portofolio"
-                    active-class="activelink"
-                    class="
-                      block
-                      px-5
-                      py-2
-                      rounded-md
-                      font-bold
-                      text-white
-                      hover:text-yellow-400
-                    "
-                    >Portofolio</router-link>
-                  <router-link to="/aboutme"
-                    active-class="activelink"
-                    class="
-                      block
-                      px-5
-                      py-2
-                      rounded-md
-                      font-bold
-                      text-white
-                      hover:text-yellow-400
-                    "
-                    exact
-                    >About Me</router-link>
+                <router-link
+                  to="/home"
+                  active-class="activelink"
+                  class="
+                    block
+                    px-5
+                    py-2
+                    rounded-md
+                    font-bold
+                    text-white
+                    hover:text-yellow-400
+                  "
+                  >Home</router-link
+                >
+                <router-link
+                  to="/portofolio"
+                  active-class="activelink"
+                  class="
+                    block
+                    px-5
+                    py-2
+                    rounded-md
+                    font-bold
+                    text-white
+                    hover:text-yellow-400
+                  "
+                  >Portofolio</router-link
+                >
+                <router-link
+                  to="/aboutme"
+                  active-class="activelink"
+                  class="
+                    block
+                    px-5
+                    py-2
+                    rounded-md
+                    font-bold
+                    text-white
+                    hover:text-yellow-400
+                  "
+                  exact
+                  >About Me</router-link
+                >
               </div>
             </nav>
           </div>
@@ -117,11 +127,7 @@
               >
                 <div class="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <h4
-                      class="h-8 w-auto font-bold text-white"
-                    >
-                    AAI Web
-                    </h4>
+                    <h4 class="h-8 w-auto font-bold text-white">AAI Web</h4>
                   </div>
                   <div class="mr-1">
                     <PopoverButton
@@ -146,7 +152,8 @@
                   </div>
                 </div>
                 <div class="px-2 pt-2 pb-3 space-y-1">
-                  <router-link to="home"
+                  <router-link
+                    to="home"
                     active-class="activelink"
                     class="
                       block
@@ -157,8 +164,10 @@
                       text-white
                       hover:text-yellow-400
                     "
-                    >Home</router-link>
-                  <router-link to="portofolio"
+                    >Home</router-link
+                  >
+                  <router-link
+                    to="portofolio"
                     active-class="activelink"
                     class="
                       block
@@ -169,8 +178,10 @@
                       text-white
                       hover:text-yellow-400
                     "
-                    >Portofolio</router-link>
-                  <router-link to="aboutme"
+                    >Portofolio</router-link
+                  >
+                  <router-link
+                    to="aboutme"
                     active-class="activelink"
                     class="
                       block
@@ -182,7 +193,8 @@
                       hover:text-yellow-400
                     "
                     exact
-                    >About Me</router-link>
+                    >About Me</router-link
+                  >
                 </div>
               </div>
             </PopoverPanel>
@@ -210,6 +222,6 @@ export default {
 
 <style scoped>
 .activelink {
-  color: #EAD025;
+  color: #ead025;
 }
 </style>

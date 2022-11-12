@@ -13,22 +13,22 @@
                         <div class="Link-Container flex flex-row justify-between">
                             <div class="youtube-link mr-6 pt-1">
                                 <a href="">
-                                    <img src="./../../assets/image/yt_ic.svg" alt="">
+                                    <img src="./../../assets/icons/yt_ic.svg" alt="">
                                 </a>
                             </div>
                             <div class="ig-link mr-6 pt-1">
                                 <a href="">
-                                    <img src="./../../assets/image/ig_ic.svg" alt="">
+                                    <img src="./../../assets/icons/ig_ic.svg" alt="">
                                 </a>
                             </div>
                             <div class="twitter-link mr-6">
                                 <a href="https://www.instagram.com/adamalfarizi62/">
-                                    <img src="./../../assets/image/twitter_ic.svg" alt="">
+                                    <img src="./../../assets/icons/twitter_ic.svg" alt="">
                                 </a>
                             </div>
                             <div class="linkedin-link mr-6">
                                 <a href="https://www.linkedin.com/in/adalf26/">
-                                    <img src="./../../assets/image/linkedin_ic.svg" alt="">
+                                    <img src="./../../assets/icons/linkedin_ic.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export default {
     font-size: 28px;
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 600px) {
     .Footer .Isi {
         display: flex;
         flex-direction: column;
