@@ -69,7 +69,11 @@ export default {
     .Footer .Isi {
         display: flex;
         flex-direction: column;
-        
+        width: 80%;
+    }
+
+    .Footer .Isi .email-contact h4 {
+        font-size: 14pt;
     }
 }
 

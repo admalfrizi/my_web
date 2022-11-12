@@ -6,7 +6,6 @@
           mt-10
           mx-auto
           max-w-7xl
-          sm:mt-12 sm:px-6
           md:mt-16
           lg:mt-20 lg:px-8
           xl:mt-28
@@ -85,7 +84,7 @@
         </div>
         <div
           class="sm:text-center lg:text-left Isi"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="3000"
         >
           <h1 class="tracking-tight font-semibold text-white Title-WAI">
@@ -293,7 +292,7 @@
         <div class="Title items-center">
           <h3 class="Title-tool font-bold text-white">Tools and Platform</h3>
         </div>
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-row justify-between Isi-tool">
           <div
             class="tools items-center"
             data-aos="flip-up"
@@ -362,7 +361,7 @@
         </div>
         <div
           class="sm:text-center lg:text-left Isi"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="3000"
         >
           <h1 class="tracking-tight font-semibold text-white Title-WAI">
@@ -696,31 +695,40 @@ export default {
     text-align: center;
     margin: auto;
     padding-top: 40px;
+    width: 80%;
   }
 
   .Container .BannerHome .Layout .Img-container {
     text-align: center;
     margin: auto;
+    width: 80%;
+    height: 20%;
   }
 
   .Container .WhoAmI .Layout2 {
     display: flex;
     flex-direction: column;
+    margin-inline: 20px;
+    
   }
 
   .Container .WhoAmI .Layout2 .Img-container-wai {
     text-align: center;
     margin: auto;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 20px;
   }
 
   .Container .WhoAmI .Layout2 .Isi {
-    padding-top: 30px;
     text-align: center;
     margin: auto;
+    width: 80%;
   }
 
   .Container .MyPorto section {
     text-align: center;
+    margin-inline: 20px;
   }
 
   .Container .MyPorto section .List-porto .Isi {
@@ -733,19 +741,33 @@ export default {
     margin-top: 10px;
   }
 
+  .Container .MySkills .Line .Skills-Isi {
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .Container .MySkills .Tool .Isi-tool{
+    display: flex;
+  }
+
   .Container .NeedHelp .Layout2 {
     display: flex;
     flex-direction: column;
+    width: 80%;
   }
 
   .Container .NeedHelp .Layout2 .Img-container-nh {
     text-align: center;
     margin: auto;
+    width: 80%;
   }
 
   .Container .NeedHelp .Layout2 .Isi {
+    padding-top: 30px;
+    text-align: center;
     margin: auto;
-    padding-top: 20px;
+    width: 80%;
+    
   }
 }
 </style>

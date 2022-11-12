@@ -16,7 +16,7 @@
       </div>
       <div
         class="sm:mx-auto lg:text-left Isi"
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-duration="3000"
       >
         <h1 class="tracking-tight font-semibold text-white Title-WAI">
@@ -151,12 +151,13 @@ export default {
 
 @media screen and (max-width: 600px) {
   .AboutMe {
-    height: auto;
+    height: 10%;
   }
   .AboutMe .Layout2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 80%;
   }
   .aboutme-pic {
     margin: auto;
@@ -164,26 +165,27 @@ export default {
 
   .aboutme-pic img {
     position: absolute;
+    width: 50%;
   }
-
   .photo {
     position: relative;
     top: 0;
     left: 0;
   }
 
-  .clouds {
+  .aboutme-pic .photo .clouds {
+    width: 10%;
     position: relative;
-    top: 0;
     right: 0;
-    margin-top: 60px;
-    margin-right: 72px;
+    left: 120px;
+    bottom: 90px;
   }
 
   .AboutMe .Layout2 .Isi {
     position: relative;
     bottom: 0;
-    margin-top: 530px;
+    margin-top: 300px;
+    width: 70%;
   }
 }
 </style>
