@@ -17,12 +17,12 @@
                                 </a>
                             </div>
                             <div class="ig-link mr-6 pt-1">
-                                <a href="">
+                                <a href="https://www.instagram.com/aaiyangasli/">
                                     <img src="./../../assets/icons/ig_ic.svg" alt="">
                                 </a>
                             </div>
                             <div class="twitter-link mr-6">
-                                <a href="https://www.instagram.com/adamalfarizi62/">
+                                <a href="https://twitter.com/adamalfarizi_26">
                                     <img src="./../../assets/icons/twitter_ic.svg" alt="">
                                 </a>
                             </div>
@@ -66,6 +66,10 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
+    .Footer {
+        padding-top: 10px;
+    }
+
     .Footer .Isi {
         display: flex;
         flex-direction: column;

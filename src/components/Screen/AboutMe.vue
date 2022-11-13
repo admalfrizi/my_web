@@ -4,7 +4,7 @@
       <div class="aboutme-pic">
         <img src="./../../../public/bio_img.svg" alt="gambar" />
         <div class="photo" data-aos="fade-right" data-aos-duration="3000">
-          <img src="../../assets/image/my_photo.png" alt="" />
+          <img class="bg-photo" src="../../assets/image/my_photo.png" alt="" />
           <img
             class="clouds"
             src="../../assets/icons/sun_and_clouds.svg"
@@ -47,7 +47,7 @@
             Sub2
           "
         >
-          Starting love about technology since junior high school and become a
+          Have interest with technology since junior high school and become a
           enthusiastic since vocational school and wondering why all of things
           in the world is modern
         </p>
@@ -150,42 +150,28 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-  .AboutMe {
-    height: 10%;
-  }
   .AboutMe .Layout2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-  }
-  .aboutme-pic {
-    margin: auto;
   }
 
-  .aboutme-pic img {
-    position: absolute;
-    width: 50%;
-  }
-  .photo {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  .aboutme-pic .photo .clouds {
-    width: 10%;
-    position: relative;
-    right: 0;
-    left: 120px;
-    bottom: 90px;
+  .AboutMe .Layout2 .aboutme-pic {
+    width: 60%;
+    visibility: hidden;
   }
 
   .AboutMe .Layout2 .Isi {
-    position: relative;
-    bottom: 0;
-    margin-top: 300px;
-    width: 70%;
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .AboutMe section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 </style>

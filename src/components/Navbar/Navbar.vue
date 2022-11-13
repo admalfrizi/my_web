@@ -1,7 +1,7 @@
 <template>
   <div class="relative overflow-hidden z-10">
     <div class="mx-auto fixed z-10 bg-blue-800 w-full">
-      <div class="z-10 bg-transparent sm:pb-8 md:pb-8 lg:pb-28 xl:pb-8">
+      <div class="Nav-out z-10 bg-transparent sm:pb-8 md:pb-8 lg:pb-28 xl:pb-8">
         <Popover>
           <div class="pt-6 w-full">
             <nav class="mx-auto flex justify-between max-w-7xl sm:px-6 lg:px-8">
@@ -10,7 +10,7 @@
               >
                 <div class="flex items-center justify-between w-full md:w-auto">
                   <router-link to="/">
-                    <span class="text-white font-bold">AAI Web</span>
+                    <span class="text-white font-bold Title-nav">AAI Web</span>
                   </router-link>
                   <div class="mr-4 flex items-center md:hidden">
                     <PopoverButton
@@ -221,7 +221,22 @@ export default {
 </script>
 
 <style scoped>
+
 .activelink {
   color: #ead025;
+}
+
+@media screen and (max-width: 1180px) {
+  .Nav-out {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .Title-nav {
+    margin-left: 20px;
+  }
 }
 </style>

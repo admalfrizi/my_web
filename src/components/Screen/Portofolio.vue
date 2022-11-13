@@ -42,7 +42,7 @@
           </div>
           <div class="link-div text-left">
             <h3 class="text-white font-medium">KuproyKoding</h3>
-            <a href="" class="link">
+            <a href="https://github.com/admalfrizi/tugas_pbw" class="link">
               <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Github</h2>
             </a>
@@ -176,6 +176,10 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
+
+  .MyPorto {
+    padding-top: 90px;
+  }
   .MyPorto section {
     text-align: center;
     padding-left: 10px;
