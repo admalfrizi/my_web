@@ -149,7 +149,7 @@ export default {
   line-height: 45px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .AboutMe .Layout2 {
     display: flex;
     flex-direction: column;

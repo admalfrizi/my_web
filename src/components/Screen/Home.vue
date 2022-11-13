@@ -681,7 +681,7 @@ export default {
   background-color: #2e64a1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .Container {
     padding-top: 90px;
     width: 100%;
@@ -756,6 +756,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 95%;
   }
 
   .Container .MySkills .Tool .Title{
