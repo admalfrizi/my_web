@@ -746,8 +746,20 @@ export default {
     margin-right: 10px;
   }
 
+  .Container .MySkills .Tool .Isi-tool .tools {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
   .Container .MySkills .Tool .Isi-tool{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Container .MySkills .Tool .Title{
+    margin-bottom: 0px;
   }
 
   .Container .NeedHelp .Layout2 {
