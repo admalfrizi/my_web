@@ -127,7 +127,7 @@
               >
                 <div class="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <h4 class="h-8 w-auto font-bold text-white">AAI Web</h4>
+                    <h4 class="h-8 w-auto font-bold text-white">Menu View</h4>
                   </div>
                   <div class="mr-1">
                     <PopoverButton

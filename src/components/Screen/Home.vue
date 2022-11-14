@@ -699,9 +699,8 @@ export default {
   }
 
   .Container .BannerHome .Layout .Img-container {
-    text-align: center;
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: 20%;
   }
 
@@ -713,9 +712,8 @@ export default {
   }
 
   .Container .WhoAmI .Layout2 .Img-container-wai {
-    text-align: center;
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: 20%;
     margin-bottom: 20px;
   }
@@ -724,6 +722,10 @@ export default {
     text-align: center;
     margin: auto;
     width: 80%;
+  }
+
+  .Btn-NH {
+    margin-top: 30px;
   }
 
   .Container .MyPorto section {
