@@ -41,7 +41,6 @@
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div>
               <button
-                @click="onClick"
                 class="
                   Btn-NH
                   w-full
@@ -63,7 +62,7 @@
                   src="../../assets/icons/download_ic.svg"
                   alt=""
                 />
-                Download My CV
+                <a :href="item" download>Download My CV</a>
               </button>
             </div>
           </div>
@@ -416,7 +415,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import cvPdf from "../../assets/files/CV_AdamAlfarizi_2022_compressed.pdf";
 
 const skills = [
   {
@@ -456,24 +455,11 @@ export default {
       skills,
     };
   },
-  methods: {
-    onclick() {
-      axios({
-        url: "http://aai.42web.io/CV_AdamAlfarizi.pdf",
-        method: "GET",
-        responseType: "blob",
-      }).then((response) => {
-        var fileurl = window.URL.createObjectURL(new Blob([response.data]));
-        var filelink = document.createElement("a");
-        filelink.href = fileurl;
-
-        filelink.setAttribute("download", "CV_AdamAlfarizi.pdf");
-        document.body.appendChild(filelink);
-
-        filelink.click();
-      });
-    },
-  },
+  data() {
+    return {
+      item: cvPdf
+    }
+  }
 };
 </script>
 
