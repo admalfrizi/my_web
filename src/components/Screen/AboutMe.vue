@@ -1,5 +1,5 @@
 <template>
-  <div v-if="renderComponent" class="AboutMe w-full">
+  <div :key="componentKey" class="AboutMe w-full">
     <main class="mx-auto mb-10 py-5 max-w-7xl sm:px-6 lg:px-8 Layout2">
       <div class="aboutme-pic">
         <img src="./../../../public/bio_img.svg" alt="gambar" />
@@ -104,18 +104,14 @@ export default {
   name: "AboutMe",
   data() {
     return {
-      renderComponent: true,
+      componentKey: 1,
     }
   },
   methods: {
     forceRerender() {
-      this.renderComponent = false;
-
-      this.$nextTick(() => {
-        this.renderComponent = true;
-      });
+      this.componentKey += 1;
     }
-  }
+  },
 };
 </script>
 

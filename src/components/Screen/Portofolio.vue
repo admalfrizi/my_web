@@ -1,5 +1,5 @@
 <template>
-  <div v-if="renderComponent" class="MyPorto">
+  <div :key="componentKey" class="MyPorto">
     <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="Title">
         <h3 class="Title-porto font-bold text-white text-left">
@@ -126,18 +126,14 @@ export default {
   name: "Portofolio",
   data() {
     return {
-      renderComponent: true,
+      componentKey: 2,
     }
   },
   methods: {
     forceRerender() {
-      this.renderComponent = false;
-
-      this.$nextTick(() => {
-        this.renderComponent = true;
-      });
+      this.componentKey += 1;
     }
-  }
+  },
 };
 </script>
 

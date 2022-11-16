@@ -1,5 +1,5 @@
 <template>
-  <div v-if="renderComponent" class="Container">
+  <div :key="componentKey" class="Container">
     <div class="BannerHome">
       <main
         class="
@@ -457,19 +457,15 @@ export default {
   },
   data() {
     return {
-      renderComponent: true,
+      componentKey: 0,
       item: cvPdf
     }
   },
   methods: {
     forceRerender() {
-      this.renderComponent = false;
-
-      this.$nextTick(() => {
-        this.renderComponent = true;
-      });
+      this.componentKey += 1;
     }
-  }
+  },
 };
 </script>
 
