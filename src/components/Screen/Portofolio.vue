@@ -1,5 +1,5 @@
 <template>
-  <div class="MyPorto">
+  <div v-if="renderComponent" class="MyPorto">
     <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="Title">
         <h3 class="Title-porto font-bold text-white text-left">
@@ -124,13 +124,27 @@
 <script>
 export default {
   name: "Portofolio",
+  data() {
+    return {
+      renderComponent: true,
+    }
+  },
+  methods: {
+    forceRerender() {
+      this.renderComponent = false;
+
+      this.$nextTick(() => {
+        this.renderComponent = true;
+      });
+    }
+  }
 };
 </script>
 
 <style scoped>
 .MyPorto {
   background-color: #406ca8;
-  padding-top: 172px;
+  padding-top: 152px;
   padding-bottom: 148px;
 }
 
@@ -178,7 +192,7 @@ export default {
 @media screen and (max-width: 600px) {
 
   .MyPorto {
-    padding-top: 90px;
+    padding-top: 120px;
   }
   .MyPorto section {
     text-align: center;

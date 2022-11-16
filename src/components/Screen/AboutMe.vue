@@ -1,5 +1,5 @@
 <template>
-  <div class="AboutMe w-full">
+  <div v-if="renderComponent" class="AboutMe w-full">
     <main class="mx-auto mb-10 py-5 max-w-7xl sm:px-6 lg:px-8 Layout2">
       <div class="aboutme-pic">
         <img src="./../../../public/bio_img.svg" alt="gambar" />
@@ -102,6 +102,20 @@
 <script>
 export default {
   name: "AboutMe",
+  data() {
+    return {
+      renderComponent: true,
+    }
+  },
+  methods: {
+    forceRerender() {
+      this.renderComponent = false;
+
+      this.$nextTick(() => {
+        this.renderComponent = true;
+      });
+    }
+  }
 };
 </script>
 
