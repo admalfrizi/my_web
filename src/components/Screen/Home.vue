@@ -157,7 +157,24 @@
         </div>
         <div class="List-porto">
           <div
-            class="Isi"
+            class="Isi "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="3000"
+          >
+            <div class="Img">
+              <img src="../../assets/image/porto_6.jpg" alt="porto" />
+            </div>
+            <div class="link-div text-left">
+              <h3 class="text-white font-medium">Chat Apps With Encryption</h3>
+              <a href="https://github.com/admalfrizi/ChatAppsEncryption" class="link">
+                <img src="../../assets/icons/browser_icon.svg" alt="" />
+                <h2 class="text-white font-regular">Link Github</h2>
+              </a>
+            </div>
+          </div>
+          <div
+            class="Isi mt-10"
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="3000"
@@ -208,23 +225,6 @@
             </div>
             <div class="link-div text-left">
               <h3 class="text-white font-medium">Siadin apps design</h3>
-              <a href="" class="link">
-                <img src="../../assets/icons/browser_icon.svg" alt="" />
-                <h2 class="text-white font-regular">Link Dribbble</h2>
-              </a>
-            </div>
-          </div>
-          <div
-            class="Isi mt-10"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-          >
-            <div class="Img">
-              <img src="../../assets/image/porto_3.jpg" alt="" />
-            </div>
-            <div class="link-div text-left">
-              <h3 class="text-white font-medium">Retailio apps design</h3>
               <a href="" class="link">
                 <img src="../../assets/icons/browser_icon.svg" alt="" />
                 <h2 class="text-white font-regular">Link Dribbble</h2>
