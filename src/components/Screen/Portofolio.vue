@@ -14,6 +14,40 @@
           data-aos-duration="3000"
         >
           <div class="Img">
+            <img src="../../assets/image/porto_8.jpg" alt="porto" />
+          </div>
+          <div class="link-div text-left">
+            <h3 class="text-white font-medium">Gocar Like User Online Apps</h3>
+            <a href="https://github.com/admalfrizi/gocar_apps_like_flutter" class="link">
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
+              <h2 class="text-white font-regular">Link Github</h2>
+            </a>
+          </div>
+        </div>
+        <div
+          class="Isi mt-10"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
+          <div class="Img">
+            <img src="../../assets/image/porto_7.jpg" alt="porto" />
+          </div>
+          <div class="link-div text-left">
+            <h3 class="text-white font-medium">Driver Online Apps</h3>
+            <a href="https://github.com/admalfrizi/gocar_driver_apps_like_flutter" class="link">
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
+              <h2 class="text-white font-regular">Link Github</h2>
+            </a>
+          </div>
+        </div>
+        <div
+          class="Isi mt-10"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
+          <div class="Img">
             <img src="../../assets/image/porto_6.jpg" alt="porto" />
           </div>
           <div class="link-div text-left">
