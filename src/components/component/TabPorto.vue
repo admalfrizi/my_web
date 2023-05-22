@@ -190,11 +190,12 @@ export default {
 }
 
 .link-div {
-    width: 30%;
+    width: 40%;
 }
 
 .link-div h3 {
     margin-top: 30px;
+    margin-right: 10px;
     margin-bottom: 33px;
     font-size: 24px;
 }
