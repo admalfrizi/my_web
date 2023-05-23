@@ -591,10 +591,11 @@ export default {
 
 .List-porto .Isi .Img {
   margin-right: 20px;
+  max-width: 1000px;
 }
 
 .List-porto .Isi .Img img {
-  width: 1034px;
+  width: 100%;
 }
 .link-div h3 {
   margin-bottom: 33px;
