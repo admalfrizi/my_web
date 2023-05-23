@@ -26,6 +26,11 @@
                                     <img src="./../../assets/icons/twitter_ic.svg" alt="">
                                 </a>
                             </div>
+                            <div class="github-link mr-6">
+                                <a href="https://github.com/admalfrizi">
+                                    <img width="35px" src="./../../assets/icons/github_ic.svg" alt="">
+                                </a>
+                            </div>
                             <div class="linkedin-link mr-6">
                                 <a href="https://www.linkedin.com/in/adalf26/">
                                     <img src="./../../assets/icons/linkedin_ic.svg" alt="">
