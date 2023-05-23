@@ -432,7 +432,7 @@
 </template>
 
 <script>
-import cvPdf from "../../assets/files/CV_AdamAlfarizi_2022_New_compressed.pdf";
+import cvPdf from "../../assets/files/CV_AdamAlfarizi_2023.pdf";
 
 const skills = [
   {
