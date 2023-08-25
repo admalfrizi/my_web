@@ -1,7 +1,28 @@
 <template>
   <div class="List-porto">
         <div
-          class="Isi "
+          class="Isi"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
+          <div class="Img">
+            <img src="../../assets/image/porto_9.jpg" alt="porto" />
+          </div>
+          <div class="link-div">
+            <h3 class="text-white font-medium">Foody Apps</h3>
+            <a href="https://github.com/admalfrizi/FoodyApps" class="link">
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
+              <h2 class="text-white font-regular">Link Github</h2>
+            </a>
+            <a href="https://drive.google.com/file/d/13e9xLVsATi2MK1jkPx6NLsUPiqhOmILM/view?usp=sharing" class="link">
+              <img src="../../assets/icons/browser_icon.svg" alt="" />
+              <h2 class="text-white font-regular">Link APK</h2>
+            </a>
+          </div>
+        </div>
+        <div
+          class="Isi mt-10"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="3000"
