@@ -47,9 +47,7 @@
             Sub2
           "
         >
-          Have interest with technology since junior high school and become a
-          enthusiastic since vocational school and wondering why all of things
-          in the world is modern
+        I have been interested in IT and Basic Programming since I was in Vocational High School, majoring in IT Computer Engineering. Futhermore, exploring a Web and Mobile Application Programming is my passionate
         </p>
         <p
           class="
@@ -62,7 +60,7 @@
             Sub2
           "
         >
-          and currently studying at the Dian Nuswantoro University in Semarang
+          and currently studying at the Dian Nuswantoro University Semarang
           majoring in informatics engineering.
         </p>
       </div>

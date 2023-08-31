@@ -114,8 +114,7 @@
               Sub2
             "
           >
-            Starting love about technology since junior high school and become a
-            enthusiastic since vocational school and.....
+          I have been interested in IT and Basic Programming since I was in Vocational High School and.....
           </p>
           <router-link
             to="/aboutme"
