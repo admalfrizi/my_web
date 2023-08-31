@@ -62,8 +62,8 @@
             Sub2
           "
         >
-          and currently study at the Dian Nuswantoro University in Semarang
-          majoring at informatics engineering.
+          and currently studying at the Dian Nuswantoro University in Semarang
+          majoring in informatics engineering.
         </p>
       </div>
     </main>
