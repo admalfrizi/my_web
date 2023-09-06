@@ -77,6 +77,13 @@
             <img src="../../assets/certificates/sertifikat_mastering_android_kotlin.jpg" alt="porto"/>
        </div>
      </div>
+     <div class="h-full p-4 lg:w-1/3" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="3000">
+        <div class="relative">
+            <img src="../../assets/certificates/sertifikat_multi_modular_android.jpg" alt="porto"/>
+       </div>
+     </div>
    </div>
 </template>
 
